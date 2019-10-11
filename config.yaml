@@ -1,0 +1,15 @@
+########Input FILES########
+mtc_assembly: ../Data/mtc_assemblies/B10K-DU-001-71-mtc/B10K-DU-001-71-mtc.fa
+ncl_assembly: ../Data/ncl_assemblies/B10K-DU-001-71.genomic.fa
+forward_read: ../Data/raw/B10K-DU-001-71_1.fq
+reverse_read: ../Data/raw/B10K-DU-001-71_2.fq
+###########################
+
+input_organism: B10K-DU-001-71
+
+
+#######Adapter for Trimming #########
+adapters: /home/sersan/miniconda3/opt/bbmap-38.22-0/resources/adapters.fa
+
+
+
